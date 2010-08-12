@@ -1,0 +1,31 @@
+VS - VISUAL SCALE
+=================
+
+Author: Travis Nesland <tnesland@gmail.com>
+Maintainer: Travis Nesland <tnesland@gmail.com>
+Type: OS X Application
+System Requirements: 10.5 (Leopard) or greater
+Dependencies: TK-Utility (Version A)
+
+
+HowTo Build From Source:
+========================
+
+1. Clone TK-VS git repository
+2. Clone TK-Utility repository
+3. Fix link to TKUtility framework in VS Xcode project (if needed)
+4. Build
+
+
+Discussion:
+===========
+
+The application iterates over a set of questions getting input from
+the user using a specified visual scale format. Such formats include
+analog, binary, and digital. Configurable options may be accessed
+through the applications preferences using the menu, or with the
+keystroke command-comma. Currently configurable options include task
+name, data directory, data file name, question set file, question set
+access method as well as general behavior such as run on start.
+	
+
